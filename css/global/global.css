@@ -1,0 +1,40 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  background-color: var(--cor-c1);
+  font-family: "Outfit";
+  color: var(--cor-c3);
+}
+
+h1,
+h2,
+h3,
+p,
+div,
+article,
+ol,
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  border-radius: 20px;
+}
+
+p {
+  font-size: 1rem;
+}
+
+h2 {
+  font-family: "Young Serif";
+  margin-bottom: 8px;
+  font-weight: 400;
+}
+
+ul {
+  list-style: none;
+}

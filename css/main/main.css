@@ -1,0 +1,124 @@
+main {
+  display: grid;
+  gap: 20px;
+  background-color: var(--cor-c0);
+  max-width: 660px;
+  margin: 120px auto;
+  padding: 40px;
+  border-radius: 20px;
+}
+
+.titulo-about h1 {
+  font-family: "Young Serif";
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.titulo-about p {
+  margin-bottom: 20px;
+}
+
+.preparar-tempo {
+  background-color: var(--cor-r2);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.preparar-tempo .span-tempo {
+  display: block;
+  font-family: "Outfit";
+  font-weight: 600;
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+}
+
+/* Relacionado ao espaçamento da esquerda. */
+.preparar-tempo ul,
+.ingredientes .lista-material {
+  padding: 0px 8px;
+}
+
+/* Relacionado ao bottom dos li */
+.preparar-tempo li:not(:last-child),
+.lista-material li:not(:last-child),
+.instrucao ol li:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+.preparar-tempo ul li span,
+.instrucao ol li span {
+  font-family: "Outfit";
+  font-weight: 600;
+}
+
+/* Parte da Preparação. */
+.preparar-tempo ul li :before {
+  content: "•";
+  color: var(--cor-r1);
+  font-size: 20px;
+  padding-right: 20px;
+}
+
+/* Parte dos ingredientes. */
+.ingredientes .lista-material li:before {
+  content: "•";
+  color: var(--cor-b1);
+  font-size: 20px;
+  padding-right: 20px;
+}
+
+/* Relacionado ao traçado em baixo de ingredient. */
+
+.titulo-about .ingredientes::after {
+  content: "";
+  display: block;
+  position: relative;
+  width: auto;
+  height: 2px;
+  margin-top: 20px;
+  background-color: var(--cor-c2);
+}
+
+/* Segunda parte do Site. */
+
+.instrucao ol li::marker {
+  color: var(--cor-b1);
+  font-weight: bold;
+}
+
+.instrucao ol {
+  padding: 0px 24px;
+}
+
+.instrucao ol li {
+  padding-left: 20px;
+}
+
+.instrucao::after {
+  content: "";
+  display: block;
+  position: relative;
+  width: auto;
+  height: 2px;
+  margin-top: 20px;
+  background-color: var(--cor-c2);
+}
+
+/* Parte da nutrição. */
+
+.nutricao p {
+  margin-bottom: 20px;
+}
+
+.nutricao .tabela li {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 8px;
+  padding: 0px 0px 8px 32px;
+  border-bottom: 2px solid var(--cor-c2);
+}
+
+.nutricao .tabela li span {
+  color: var(--cor-b1);
+  font-weight: 800;
+}

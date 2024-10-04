@@ -1,0 +1,39 @@
+:root {
+  --cor-c0: hsl(0, 0%, 100%);
+  --cor-c1: hsl(30, 54%, 90%);
+  --cor-c2: hsl(30, 18%, 87%);
+  --cor-c3: hsl(30, 10%, 34%);
+  --cor-c4: hsl(24, 5%, 18%);
+
+  --cor-b1: hsl(14, 45%, 36%);
+  --cor-r1: hsl(332, 51%, 32%);
+  --cor-r2: hsl(330, 100%, 98%);
+}
+
+.Stone-100 {
+  color: var(--cor-c1);
+}
+
+.Stone-150 {
+  color: var(--cor-c2);
+}
+
+.Stone-600 {
+  color: var(--cor-c3);
+}
+
+.Stone-900 {
+  color: var(--cor-c4);
+}
+
+.Brown-800 {
+  color: var(--cor-b1);
+}
+
+.Rose-800 {
+  color: var(--cor-r1);
+}
+
+.Rose-50 {
+  color: var(--cor-r2);
+}
